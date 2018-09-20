@@ -1,0 +1,39 @@
+body{
+    background-color: navy
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 10px;
+    color: white;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
